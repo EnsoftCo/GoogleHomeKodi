@@ -455,7 +455,7 @@ For example: `{"token":"*YOUR_CONNECTION_PASSWORD*", "kodiid":"bedroom"}`
       > Kodi play movie $
     3. In *What do you want the Assistant to say in response?* enter something like:
       > ok playing $ movie
-4. For *That* choose: *Maker Webhooks*
+4. For *That* choose: *Webhooks*
     1. Choose *Make a web request*
     2. In *URL* enter:
       >_YOUR_NODE_SERVER_/playmovie?q={{TextField}}
